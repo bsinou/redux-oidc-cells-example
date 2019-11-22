@@ -1,0 +1,41 @@
+.App {
+    margin: 0;
+    text-align: center;
+    background-color: #fffbee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-body {
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: #4f372d;
+    font-family: "Fira Sans", "Roboto", sans-serif;
+    padding: 2em 1em;
+    border: 2px solid #be9b7b;
+    border-radius: 4px;
+}
+
+.App-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-buttons Button {
+    background-color: #96ceb4;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 12px 28px;
+    margin: 2em 1em 0em;
+    width: 200px;
+}
+
+.App-buttons Button:hover {
+    box-shadow: 0 4px 8px 0 rgba(229, 183, 82, 0.8), 0 6px 20px 0 rgba(229, 183, 82, 1);
+}
