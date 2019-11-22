@@ -12,7 +12,8 @@
 .App-body {
     display: flex;
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 1vmin);
+    line-height: 2.5;
     color: #4f372d;
     font-family: "Fira Sans", "Roboto", sans-serif;
     padding: 2em 1em;
